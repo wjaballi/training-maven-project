@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.mulesoft.training.HelloMavenTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.724 s <<< FAILURE! - in com.mulesoft.training.HelloMavenTest
+mavenFlowReturnsHelloMaven(com.mulesoft.training.HelloMavenTest)  Time elapsed: 0.08 s  <<< ERROR!
+org.mule.api.config.ConfigurationException: maven-project.xml (java.io.FileNotFoundException)
+Caused by: java.io.FileNotFoundException: maven-project.xml
+
+retrieveFlightsAddsAppropriateHeader(com.mulesoft.training.HelloMavenTest)  Time elapsed: 0.004 s  <<< ERROR!
+org.mule.api.config.ConfigurationException: maven-project.xml (java.io.FileNotFoundException)
+Caused by: java.io.FileNotFoundException: maven-project.xml
+
